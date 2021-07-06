@@ -4,7 +4,7 @@ layout: archive
 author: Vincenzo Eduardo Padulano
 ---
 
-[RDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html) is ROOT's declarative interface for data
+[RDataFrame](https://root.cern/doc/master/classROOT_1_1RDataFrame.html) is ROOT's declarative interface for data
 analysis and since its release in 6.14 has seen tons of usages in real world analysis use cases and other examples in
 the wild. Parallelism has always been a staple of its design with the support of executing the event loop on all cores
 of a machine thanks to implicit multi-threading. Since ROOT 6.24, this aspect of RDataFrame has been enhanced further
@@ -85,4 +85,4 @@ allows to steer C++ computations on a set of computing nodes and returning the f
 that the entire analysis can be run within the same application. It is available as an experimental feature since ROOT
 6.24 with the support for running on a Spark cluster, with more backends coming in future ROOT releases. Try it with our
 [tutorial](https://root.cern/doc/master/distrdf001__spark__connection_8py.html) and learn more about it in the
-respective RDataFrame documentation [section](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html#distrdf).
+respective RDataFrame documentation [section](https://root.cern/doc/master/classROOT_1_1RDataFrame.html#distrdf).
